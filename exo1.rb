@@ -22,17 +22,27 @@
 
 # Conditions un peu complexe
 
-puts "Entrez un chiffre:"
-chiffre = gets.chomp.to_i
-adeviner = 15
+# puts "Entrez un chiffre:"
+# chiffre = gets.chomp.to_i
+# adeviner = 15
 
 # if chiffre < adeviner
 #   puts "#{chiffre} est trop petit :("
 # elsif chiffre > adeviner
 #   puts "#{chiffre} est trop grand :("
 # if chiffre != adeviner
-unless chiffre == adeviner
-  puts "Tu as perdu :("
-else
-  puts "Bravo tu as deviné ! :)"
+# unless chiffre == adeviner
+#   puts "Tu as perdu :("
+# else
+#   puts "Bravo tu as deviné ! :)"
+# end
+
+# short cut
+
+puts "Entrez un chiffre:"
+chiffre = gets.chomp.to_i
+# adeviner = 15
+# puts "Oupss essaye encore !" unless chiffre == adeviner
+if (chiffre != 0 && chiffre == 4) || (chiffre != 0 && chiffre == 8)
+
 end

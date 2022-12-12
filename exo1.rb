@@ -4,6 +4,6 @@
 # nom = gets.chomp
 # puts "Salut #{nom} comment allez vous ?"
 
-puts "Quelle est votre âge?"
-age = gets.chomp.to_i.even?
-puts "#{age}"
+puts "Entrez un chiffre"
+chiffre = gets.chomp
+puts chiffre.to_i.even?

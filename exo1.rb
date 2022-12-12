@@ -39,10 +39,22 @@
 
 # short cut
 
-puts "Entrez un chiffre:"
-chiffre = gets.chomp.to_i
-# adeviner = 15
-# puts "Oupss essaye encore !" unless chiffre == adeviner
-if (chiffre != 0 && chiffre == 4) || (chiffre != 0 && chiffre == 8)
+# puts "Entrez un chiffre:"
+# chiffre = gets.chomp.to_i
+# # adeviner = 15
+# # puts "Oupss essaye encore !" unless chiffre == adeviner
+# if (chiffre != 0 && chiffre == 4) || (chiffre != 0 && chiffre == 8)
 
-end
+# end
+
+
+# Test palyndrome
+
+# puts "Entrez un palyndrome"
+# palyndrome = gets.chomp
+# mot = palyndrome.downcase
+# unless mot == mot.reverse
+#   puts "Oups Oups !!! #{palyndrome} n'est un palyndrome"
+# else
+#   puts "#{palyndrome} est un palyndrome"
+# end

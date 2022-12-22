@@ -1,4 +1,4 @@
-# puts "Salut la planète"
+puts "Salut la planète"
 # pour exécuté c'est ruby exo1.rb
 # puts "Entrez votre nom :"
 # nom = gets.chomp

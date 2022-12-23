@@ -111,3 +111,5 @@
 # irb(main):052:0> sharks.kind_of?(Array)
 # => true
 # irb(main):053:0>
+
+puts "Happy" + "\n" + "coding"

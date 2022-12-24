@@ -1,4 +1,4 @@
-puts "Salut la planète"
+# puts "Salut la planète"
 # pour exécuté c'est ruby exo1.rb
 # puts "Entrez votre nom :"
 # nom = gets.chomp
@@ -58,3 +58,13 @@ puts "Salut la planète"
 # else
 #   puts "#{palyndrome} est un palyndrome"
 # end
+
+
+# puts Time.now
+bar = " my cool "
+foo = " string "
+baz = foo
+baz = baz.concat(" today ")
+foo = bar
+bar = foo.concat(" yesterday #{baz}")
+puts bar

@@ -61,10 +61,47 @@
 
 
 # puts Time.now
-bar = " my cool "
-foo = " string "
-baz = foo
-baz = baz.concat(" today ")
-foo = bar
-bar = foo.concat(" yesterday #{baz}")
-puts bar
+# bar = " my cool "
+# foo = " string "
+# baz = foo
+# baz = baz.concat(" today ")
+# foo = bar
+# bar = foo.concat(" yesterday #{baz}")
+# puts bar
+
+
+# ARRAY AND HASH
+classe = ['John', 'Marc', 'Henry']
+classe.reverse
+classe.length
+classe.join(', ')
+classe * ", "
+classe += ['Marie']
+classe.push('Olvier', 'Kango')
+ecole = [['Jean', 'Marc'], ['Marie', 'Andre', 'Francine']]
+ecole[0][0]
+marc = {'note' => 4, 'age' => 12}
+marc['note']
+marc['age ']
+francine = {'age' => 13}
+francine['note'] = 4
+francine.values
+b = Hash.new(0)
+b['note']
+:red.class
+1.class
+"azezae".class
+:red.to_s
+"red".to_sym
+francine = {:note => 15}
+francine[:note]
+francine = {note: 15, taille: 185, couleur: 'Rouge'}
+ecole = {bleriot: {eleves: ['Jean', 'Marc', 'Andre'], :budget=>1500}, :heinstein=>{}}
+ecole[:bleriot]
+ecole[:bleriot][:eleves][0]
+
+text = "fhjbfhjbfhjbfhjbfhjfjfj fiuffyfefe iuhfeiuwfiwufiw iuefiwgfiwgfiwuf iuefiwugfiuwgfeiuwg"
+* Créer un hash pour stocker les mots
+* Obtenir un tableau des mots de notre texte (split())
+* Itérer sur le tabbleau précédent
+  * Remplir le hash
